@@ -9,6 +9,9 @@ Enable "Enable API" in the Ninjabrain bot settings.
 The PC Must be connected to the same Wi-Fi.
 
 ## 設定 (Settings)
+設定後は再起動が必要です。  
+A retart is required after setting.
+
 API固有の情報として、`Show avg dist`を有効にすることで、座標評価時に平均距離を表示します（実験的な機能）。  
 As an API specific information, the average distance is show when blind evaluation by enabling `Show avg dist` (experimental feature).
 
