@@ -1,4 +1,4 @@
-version = '0.1.0 pre1'
+version = '0.1.0 pre2'
 
 import requests
 import json
@@ -171,6 +171,7 @@ def apiget():
     if data['isBlindModeEnabled']:
       Chunk_list_label[0]['text'] = f'{'{:.0f}'.format(data['blindResult']['xInNether'])}, {'{:.0f}'.format(data['blindResult']['zInNether'])}'
       Percent_list_label[0]['text'] = '<400'
+      Percent_list_label[0]['foreground'] = fg
       Percent_list_label[1]['text'] = f'{'{:.1f}'.format(data['blindResult']['highrollProbability']*100)}%'
       if data['blindResult']['evaluation'] == 'EXCELLENT':
         Chunk_list_label[1]['text'] = 'excellent'
@@ -223,12 +224,12 @@ def apiget():
 
 # notofy new version
 if notify_newversion == 'True':
-  url = 'https://raw.githubusercontent.com/mebuki117/Ninview/main/meta'
+  url = 'https://raw.githubusercontent.com/mebuki117/Ninview-Plus/main/meta'
   data = requests.get(url).content
   if str(version) < str(data).replace('b', '').replace("'", ''):
     m = messagebox.askquestion('Ninview+', 'Found Update', detail='Open the download page?')
     if m == 'yes':
-      webbrowser.open('https://github.com/mebuki117/Ninview/releases')
+      webbrowser.open('https://github.com/mebuki117/Ninview-Plus/releases')
 
 # colors
 bg1 = '#55585a'
