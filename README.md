@@ -6,14 +6,14 @@ Access ninjabrain bot from othre PCs using the [Ninjabrain bot API](https://gith
 1. Ninjabrain bot設定の、"Enable API"を有効にする。  
 Enable "Enable API" in the Ninjabrain bot settings.
 2. PCが同じWi-Fiに接続されている必要があります。  
-The PC Must be connected to the same Wi-Fi.
+The PCs Must be connected to the same Wi-Fi.
 
 ## 設定 (Settings)
 設定後は再起動が必要です。  
 A retart is required after setting.
 
-API固有の情報として、`Show avg dist`を有効にすることで、座標評価時に平均距離を表示します（実験的な機能）。  
-As an API specific information, the average distance is show when blind evaluation by enabling `Show avg dist` (experimental feature).
+API固有の情報として、`Show avg distance`を有効にすることで、座標評価時に平均距離を表示します（実験的な機能）。  
+As an API specific information, the average distance is show when blind evaluation by enabling `Show avg distance` (experimental feature).
 
 ## スクリーンショット (Screenshots)
 | 計算結果 (Result) | 座標評価 (Blind evaluation) |
