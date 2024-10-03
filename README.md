@@ -1,6 +1,6 @@
 ## 説明 (Explanation)
 [Ninjabrain botのAPI](https://github.com/Ninjabrain1/Ninjabrain-Bot/wiki/API)を用いて、他のPCからNinjabrain botにアクセスします。  
-Access ninjabrain bot from othre PCs using the [Ninjabrain bot API](https://github.com/Ninjabrain1/Ninjabrain-Bot/wiki/API).
+Access ninjabrain bot from other PCs using the [Ninjabrain bot API](https://github.com/Ninjabrain1/Ninjabrain-Bot/wiki/API).
 
 ### 条件 (Conditions)
 1. Ninjabrain bot設定の、"Enable API"を有効にする。  
