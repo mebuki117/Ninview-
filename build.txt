@@ -1,0 +1,1 @@
+pyinstaller main.py --onefile --noconsole --icon=ico\blaze_powder.ico
