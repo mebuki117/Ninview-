@@ -1,3 +1,5 @@
+### ⚠Recommended use [ninb-web-client](https://github.com/cylorun/ninbot-web-client)
+
 ## 説明 (Explanation)
 [Ninjabrain botのAPI](https://github.com/Ninjabrain1/Ninjabrain-Bot/wiki/API)を用いて、他のPCからNinjabrain botにアクセスします。  
 Access ninjabrain bot from other PCs using the [Ninjabrain bot API](https://github.com/Ninjabrain1/Ninjabrain-Bot/wiki/API).
