@@ -1,4 +1,4 @@
-version = '0.1.0 pre2'
+version = '0.1.0 pre3'
 
 import requests
 import json
